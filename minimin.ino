@@ -3,10 +3,12 @@
  minimin - a minimal Theremin style instrument
   
  Created 15  Dec 2019
- Modified 17 Jan 2020
- V1.0
+ Modified 22 Jan 2020
+ V1.1
  By John Potter (techno-womble)
 *********************************************************************************/
+
+//   download Mozzi library from https://sensorium.github.io/Mozzi/ 
 
 #include <MozziGuts.h>
 #include <Oscil.h> 
@@ -22,12 +24,6 @@ const boolean stepMode = false;
 /*int notes[] = {131.139,147,156,165,175,185,196,208,220,233.246,       // chromatic scale
                262,277,294,311,330,349,370,392,415,440,466,494,
                523,554,587,622,659,698,739,783,830,880,932,988,
-               1046}; */
-
-               
-/*int notes[] = {131.131,131,156,156,175,175,196,196,196,233.233,       // cminor pentatonic
-               262,262,262,311,311,349,349,392,392,392,466,466,
-               523,523,523,622,622,698,698,783,783,783,932,932,
                1046}; */
 
 /*int notes[] = {131.131,147,147,165,175,175,196,196,220,220.246,         // major scale
